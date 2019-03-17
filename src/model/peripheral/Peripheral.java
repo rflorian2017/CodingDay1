@@ -2,7 +2,7 @@ package model.peripheral;
 
 import model.peripheral.peripherals.Mouse;
 
-public class Peripheral {
+public abstract class Peripheral {
     private String connectionToComputer;
     private String brand;
 
